@@ -1,1 +1,1 @@
-# Accordion-Quantox
+Accordion Quantox
