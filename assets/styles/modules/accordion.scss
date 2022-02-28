@@ -84,6 +84,7 @@
 
         &:before {
           @include desktop {
+          padding: 12.125rem 0 0 0;
           position: absolute;
           content: "";
           top: rem(-364);
@@ -93,7 +94,6 @@
           background-image: url("/assets/images/desktop/bg-pattern-desktop.svg");
           background-size: 100% 100%;
           background-repeat: no-repeat;
-          background-position: top rem(70 + 12) right 0px;
           z-index: 0;
         }
       }
