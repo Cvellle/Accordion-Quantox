@@ -40,14 +40,14 @@
       @include desktop {
         position: absolute;
         content: "";
-        background-image: url("/assets/images/desktop/illustration-box-desktop.png");
-        background-size: 100% 100%;
+        background-image: url("/assets/images/desktop/illustration-box-desktop.svg");
+        background-size: contain;
         top: rem(206.12);
         z-index: 3;
         left: 0%;
-        transform: translateX(rem(-41.97));
-        width: rem(90);
-        height: rem(106);
+        transform: translateX(rem(-41.97 - 50));
+        width: rem(191);
+        height: rem(184);
         z-index: 5;
       }
     }
