@@ -13,7 +13,7 @@ function buttonToggle() {
     if (!parent.classList.contains('button-block--open')) {
       parent.classList.add('button-block--open');
       targetedImage.classList.add('button-image--rotated');
-      targetedTextContent.style.maxHeight = parent.scrollHeight + 'px';
+      targetedTextContent.style.maxHeight = parent.scrollHeight + targetedTextContent.scrollHeight + 'px';
     }
     else {
       parent.classList.remove('button-block--open');
