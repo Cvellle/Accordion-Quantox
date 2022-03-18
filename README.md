@@ -35,3 +35,5 @@ npm run dev
 ```
 localhost/3000
 ```
+
+![Screenshot](assets/images/screenshot.png)
